@@ -13,9 +13,9 @@ import org.eclipse.jetty.webapp.*;
 public class JettyServer {
 	// TODO: You should configure this appropriately for your environment
 	private static final String LOG_PATH = "c:/logs/access/yyyy_mm_dd.request.log";
-	private static final String WEB_XML = "META-INF/webapp/WEB-INF/web.xml";
+	private static final String WEB_XML = "webapp/WEB-INF/web.xml";
 	private static final String CLASS_ONLY_AVAILABLE_IN_IDE = "com.al.IDE";
-	private static final String PROJECT_RELATIVE_PATH_TO_WEBAPP = "src/main/resources/META-INF/webapp";
+	private static final String PROJECT_RELATIVE_PATH_TO_WEBAPP = "src/main/resources/webapp";
 
 	public static interface WebContext {
 		public File getWarPath();
